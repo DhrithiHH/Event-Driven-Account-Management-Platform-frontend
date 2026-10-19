@@ -1,12 +1,12 @@
 # AccountFlow Frontend
 
-AccountFlow is the React client for the [FastAPI Notification Backend](https://github.com/DhrithiHH/fastapi-notification-backend). It provides account registration, JWT sign-in, profile management, password-confirmed deletion, and a real notification-history timeline supplied by the backend.
+AccountFlow is the React client for the [Event-Driven-Account-Management-Platform--backend](https://github.com/DhrithiHH/fastapi-notification-backend). It provides account registration, JWT sign-in, profile management, password-confirmed deletion, and a real notification-history timeline supplied by the backend.
 
 The frontend does not send email itself. It displays account data and persisted lifecycle notification events returned by the FastAPI API.
 
-**Frontend repository:** [fastapi-notification-frontend](https://github.com/DhrithiHH/fastapi-notification-frontend)
+**Frontend repository:** [Event-Driven-Account-Management-Platform-frontend](https://github.com/DhrithiHH/Event-Driven-Account-Management-Platform-frontend.git)
 
-**Backend repository:** [fastapi-notification-backend](https://github.com/DhrithiHH/fastapi-notification-backend)
+**Backend repository:** [Event-Driven-Account-Management-Platform--backend](https://github.com/DhrithiHH/Event-Driven-Account-Management-Platform--backend.git)
 
 ## Tech stack
 
