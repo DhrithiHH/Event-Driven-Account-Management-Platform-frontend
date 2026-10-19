@@ -1,4 +1,4 @@
-# AccountFlow Frontend
+# Event-Driven Account Management Platform Frontend
 
 AccountFlow is the React client for the [Event-Driven-Account-Management-Platform--backend](https://github.com/DhrithiHH/fastapi-notification-backend). It provides account registration, JWT sign-in, profile management, password-confirmed deletion, and a real notification-history timeline supplied by the backend.
 
