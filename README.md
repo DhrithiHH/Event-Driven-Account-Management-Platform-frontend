@@ -94,7 +94,7 @@ The page also retains an architecture explanation of the backend flow—account 
 ### Prerequisites
 
 - Node.js and npm.
-- A running FastAPI backend at the configured API URL. For the documented Docker setup, the API is available at `http://localhost:8080`.
+- A running FastAPI backend at the configured API URL (default: `http://localhost:8080`).
 
 ### Install and run
 
@@ -116,7 +116,7 @@ VITE_API_URL=http://localhost:8080
 
 `VITE_API_URL` is the backend root URL. Do not append `/api/v1`: the API modules add versioned paths themselves.
 
-Start the backend and its required PostgreSQL, Redis, Kafka, FastStream, and SMTP/MailDev services before exercising account and notification flows. See the backend repository README for Docker and migration instructions.
+Start the backend and its required PostgreSQL, Redis, Kafka, and SMTP services before exercising account and notification flows. See the backend repository README for Aiven cloud configuration and migration instructions.
 
 ## Scripts and verification
 
